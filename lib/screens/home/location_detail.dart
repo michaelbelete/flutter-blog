@@ -7,6 +7,7 @@ class LocationDetail extends StatelessWidget {
         appBar: AppBar(title: Text("My, App")),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(decoration: BoxDecoration(color: Colors.red), child: Text("Hello, World")),
             Container(decoration: BoxDecoration(color: Colors.green), child: Text("Hello, World")),
