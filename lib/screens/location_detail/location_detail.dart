@@ -11,7 +11,7 @@ class LocationDetail extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            ImageBanner("assets/images/japen-place.jpeg"),
+            // ImageBanner("assets/images/japen-place.jpeg"),
             TextSection(Colors.green),
             TextSection(Colors.yellow),
             TextSection(Colors.red),
