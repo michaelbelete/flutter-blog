@@ -6,7 +6,7 @@ class LocationDetail extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text("My, App")),
         body: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(decoration: BoxDecoration(color: Colors.red), child: Text("Hello, World")),
             Container(decoration: BoxDecoration(color: Colors.green), child: Text("Hello, World")),
