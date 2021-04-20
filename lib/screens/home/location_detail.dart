@@ -4,13 +4,13 @@ class LocationDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("My, App")), 
-        body: Container(
-            decoration: BoxDecoration(
-                color: Colors.red
-            ),
-            child: Text("Hello, ")
-        ),
+      appBar: AppBar(title: Text("My, App")),
+      body: Column(
+          children: [
+              Container(decoration: BoxDecoration(color: Colors.red), child: Text("Hello, World")),
+              Container(decoration: BoxDecoration(color: Colors.green), child: Text("Hello, World")),
+              Container(decoration: BoxDecoration(color: Colors.yellow), child: Text("Hello, World")),
+          ],
     );
   }
 }
