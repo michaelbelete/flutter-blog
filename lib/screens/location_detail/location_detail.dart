@@ -10,9 +10,9 @@ class LocationDetail extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            TextSection(Color.green),
-            TextSection(Color.yellow),
-            TextSection(Color.red),
+            TextSection(Colors.green),
+            TextSection(Colors.yellow),
+            TextSection(Colors.red),
           ],
         ));
   }
