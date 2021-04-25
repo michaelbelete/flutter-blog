@@ -11,6 +11,7 @@ class ImageBanner extends StatelessWidget {
         constarinsts: BoxConstraints.expand(
             height: 200.0,
         ),
+        child: Text("hi")
     );
   }
 }
