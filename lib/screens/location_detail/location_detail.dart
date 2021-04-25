@@ -9,7 +9,7 @@ class LocationDetail extends StatelessWidget {
         appBar: AppBar(title: Text("My, App")),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             ImageBanner("assets/images/japan-place.jpeg"),
             TextSection("Hello, World", "lorem ejsbskbdjabsjdbabsdbasjb"),
