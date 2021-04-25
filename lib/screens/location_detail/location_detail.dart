@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'text_section.dart';
-import 'image_banner.dart';
+// import 'image_banner.dart';
 
 class LocationDetail extends StatelessWidget {
   @override
