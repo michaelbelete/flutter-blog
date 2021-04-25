@@ -12,6 +12,6 @@ class ImageBanner extends StatelessWidget {
           height: 200.0,
         ),
         decoration: BoxDecoration(color: Colors.grey),
-        child: Image.asset(_assetPath));
+        child: Image.asset(_assetPath, fit: BoxFit.cover));
   }
 }
