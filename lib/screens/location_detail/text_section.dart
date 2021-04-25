@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class TextSection extends StatelessWidget {
   final String _title;
   final String _body;
-  static final double hrPadding = 16.0;
+  static const double hrPadding = 16.0;
 
   TextSection(this._title, this._body);
 
