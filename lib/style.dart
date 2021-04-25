@@ -24,5 +24,5 @@ const Body1TextStyle = TextStyle(
   fontFamily: FontNameDefault,
   fontWeight: FontWeight.w300,
   fontSize: BodyTextSize,
-  color: Colors.grey[800],
+  color: Color.grey[800],
 );
