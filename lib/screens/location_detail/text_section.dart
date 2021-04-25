@@ -9,26 +9,21 @@ class TextSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-        mainAxisAlignment: MainAxisAlignment.start, 
-        crossAxisAlignment: CrossAxisAlignment.stretch, 
-        children: [
-            Text(_title),
-            Text(_body),
-      //   Container(
-      //     padding: const EdgeInsets.fromLTRB(hrPadding, 32.0, hrPadding, 4.0),
-      //     child: Text(
-      //       _title,
-      //       style: Theme.of(context).textTheme.title,
-      //     ),
-      //   ),
-      //   Container(
-      //     padding: const EdgeInsets.fromLTRB(hrPadding, 10.0, hrPadding, hrPadding),
-      //     child: Text(
-      //       _body,
-      //       style: Theme.of(context).textTheme.body1,
-      //     ),
-      //   )
+    return Column(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+      Container(
+        padding: const EdgeInsets.fromLTRB(hrPadding, 32.0, hrPadding, 4.0),
+        child: Text(
+          _title,
+          style: Theme.of(context).textTheme.title,
+        ),
+      ),
+      Container(
+        padding: const EdgeInsets.fromLTRB(hrPadding, 10.0, hrPadding, hrPadding),
+        child: Text(
+          _body,
+          style: Theme.of(context).textTheme.body1,
+        ),
+      )
     ]);
   }
 }
