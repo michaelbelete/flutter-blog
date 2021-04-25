@@ -12,9 +12,7 @@ class LocationDetail extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             ImageBanner("assets/images/japen-place.jpeg"),
-            TextSection(Colors.green),
-            TextSection(Colors.yellow),
-            TextSection(Colors.red),
+            TextSection("Hello, World", "lorem ejsbskbdjabsjdbabsdbasjb"),
           ],
         ));
   }
