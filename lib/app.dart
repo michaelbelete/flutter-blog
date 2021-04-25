@@ -9,7 +9,11 @@ class App extends StatelessWidget {
         home: LocationDetail(),
         theme: ThemeData(
             appBarTheme: AppBarTheme(
-          textTheme: TextTheme(title: AppBarTextStyle),
-        )));
+              textTheme: TextTheme(title: AppBarTextStyle),
+            ),
+            textTheme: TextTheme(
+              title: TitleTextStyle,
+              body1: Body1TextStyle,
+            )));
   }
 }
