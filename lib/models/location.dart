@@ -1,6 +1,7 @@
 import 'location_fact.dart';
 
 class Location {
+  final int id;
   String name;
   String imagePath;
   final List<LocationFact> facts;
@@ -9,7 +10,7 @@ class Location {
 
   static List<Location> fetchAll() {
     return [
-      Location('Arashiyama Bamboo Grove', 'assets/images/japan-place.jpeg', [
+      Location(1, 'Arashiyama Bamboo Grove', 'assets/images/japan-place.jpeg', [
         LocationFact('Summary',
             'While we could go on about the ethereal glow and seemingly endless heights of this bamboo grove on the outskirts of Kyoto, the sight\'s pleasures extend beyond the visual realm.'),
         LocationFact('How to Get There',
