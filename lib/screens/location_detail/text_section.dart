@@ -12,11 +12,17 @@ class TextSection extends StatelessWidget {
     return Column(mainAxisAlignment: MainAxisAlignment.start, crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       Container(
         padding: const EdgeInsets.fromLTRB(hrPadding, 32.0, hrPadding, 4.0),
-        child: Text(_title, ),
+        child: Text(
+          _title,
+          style: Theme.of(context).textTheme.title,
+        ),
       ),
       Container(
         padding: const EdgeInsets.fromLTRB(hrPadding, 10.0, hrPadding, hrPadding),
-        child: Text(_body),
+        child: Text(
+          _body,
+          style: Theme.of(context).textTheme.body1,
+        ),
       )
     ]);
   }
